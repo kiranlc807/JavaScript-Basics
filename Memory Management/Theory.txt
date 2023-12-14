@@ -1,0 +1,45 @@
+Memory Management:-
+--------------------
+* In JavaScript, memory management is handled automatically by the runtime environment
+
+* specifically by the JavaScript engine in the web browser or the Node.js runtime on the server side.
+
+* Here's an overview of how it works:-
+
+
+    1.Memory Allocation:
+        * When we  create variables, objects, or arrays in your JavaScript code, memory is allocated to store 
+          those values.
+
+        * primitive types like Numbers and Booleans are stored directly in the variable's memory space.
+
+        * Object and complex data structures are stored in heap 
+
+        * The JavaScript engine is responsible for allocating memory for variables and objects dynamically.
+
+    Example:-
+                let num=42  //value is stored directly in the variable (typicaly stack)
+
+                let person = {  //Object stored inside a heap.
+                    name: "jhon",
+                    age: 30
+                }
+
+    2.Reference Counting:
+        * One basic technique used by some garbage collectors is reference counting.
+          Each value in memory has a reference count associated with it.
+
+        * When a variable or object is created, its reference count is set to 1.
+
+        * When a reference to that variable or object is created the reference count is incremented.
+
+        * When a reference is removed the reference count is decremented.
+
+
+    3.Garbage Collection:
+        * The process the garbage collection is , removes the de-refered Object or variables from memory.
+
+        * These values are considered unreachable and are no longer needed by the program.
+        
+        * The garbage collector then frees up the memory occupied by these unreachable values.
+

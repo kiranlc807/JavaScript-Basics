@@ -1,0 +1,34 @@
+REPL [Read Eveal Print Loop]:
+-------------------------------
+* REPL is an interactive shell that processes Node.js expressions. 
+
+* Reads JavaScript code the user enters
+* Evaluates the result of interpreting the line of code
+* prints the result to the use
+* loops until the user signals to quit.
+
+to start REPL --> node 
+to clear REPL --> ctrl+L
+
+*Multi-line blocks of code are supported as well.
+   Ex:
+        > let add = function(x,y){
+            ....
+        > return x+y;
+        }
+        >add(10,10)
+        20
+
+* The REPL has specific keywords to help control its behavior. Each command begins with a dot ..
+    Ex:
+        .help
+* commands:
+    .break    Sometimes you get stuck, this gets you out
+    .clear    Alias for .break
+    .editor   Enter editor mode
+    .exit     Exit the repl
+    .help     Print this help message
+    .load     Load JS from a file into the REPL session
+    .save     Save all evaluated commands in this REPL session to a file
+
+    Press ^C to abort current expression, ^D to exit the repl

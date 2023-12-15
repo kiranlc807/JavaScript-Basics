@@ -1,0 +1,26 @@
+Hoisting:-
+----------
+* Hoisting is a behavior where variable and function declarations are moved to the top of their 
+  containing scope during the compilation phase.
+
+NOTE:
+    * Only the declarations hoists not the intialization.
+
+* Only the var declarations can only hoists to top not let , const
+* because they are Block Scope that means before using they has to declare.
+Ex:
+    1.var 
+        console.log(a) //undefined
+        var a = 10
+        console.log(a) //10
+    
+    2.let and const
+        console.log(a) // Cannot access 'a' before initialization
+        let a=10
+
+* function expressions are not Hoisting 
+Ex: 
+    foo(); // TypeError: foo is not a function
+    var foo = function() {
+    console.log("Hello, not hoisted!");
+}

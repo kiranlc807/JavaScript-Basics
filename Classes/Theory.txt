@@ -1,0 +1,36 @@
+Class:
+----------
+* class are template for JavaScript Object.
+* use class keyword to create class.
+* Always add a method named construtor() if intialize the Object properties.
+* a class can have any number of method.
+
+syntax:
+        class ClassName{
+            construtor(){
+                ......
+            }
+        }
+
+The construtor() method:
+-------------------------
+* construtor() method is a special method().
+* it has to have the exact name construtor().
+* it is executed automaticaly when new Object is created.
+* it is used to intialize Object properties.
+* if we do not define a construtor(), JavaScript will add an empty construtor().
+
+    Ex:
+        class ClassName{
+            construtor(){
+                ......
+            }
+
+            method1(){
+                ....
+            }
+
+            method2(){
+                ....
+            }
+        }

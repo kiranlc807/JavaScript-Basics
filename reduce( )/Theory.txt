@@ -1,0 +1,8 @@
+reduce():
+---------
+* it reduces the array to a single value by accumualting the result of a function applied to each element.
+* it does't affects the Original Array.
+
+syntax: 
+        reduce(callbackFn)
+        reduce(callbackFn, initialValue)

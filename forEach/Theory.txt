@@ -1,0 +1,23 @@
+forEach():
+----------
+* the forEach() function receives function as an argument.
+* it applies the some code to every element.
+* it will not return anything.
+* it just applies the condition to every element.
+* it will not change the Original Array.
+
+syntax:
+        forEach((element)=> { code logic })
+        forEach((element,index)=>{ code logic})
+
+
+Difference Between map(), forEch() and filter():-
+-----------------------------------------------------
+* map() will return a new array as per the condition applied.
+* forEach() will not return anything [undefined].
+* filter() will return an array of condition satisfies element or an empty array.
+-------
+* if we have a requirment to modifiy the current array and are experting a modified one, 
+  then we should go with map().
+* if we just want to iterate the array, then we can use forEach().
+* if we are experting filterd values from a given array then we should use filter().

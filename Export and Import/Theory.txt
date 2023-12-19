@@ -1,0 +1,16 @@
+In javaScript Exports classified into .
+---------------------------------------
+1.default export
+2.named export
+
+
+1.default export:
+------------------
+* used for export only one main value per module.
+* name independent when importing.
+
+2.named export:
+---------------
+* exporting several values for one module.
+* you have to use the same name whrn importing.
+* use curly braces to get values out during import.

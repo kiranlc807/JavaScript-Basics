@@ -1,0 +1,4 @@
+req.header:
+-----------
+* it specifies the content types that are valid in the response message.
+* A request header is a part of the HTTP request sent by client to the server.

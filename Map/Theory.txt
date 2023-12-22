@@ -1,0 +1,22 @@
+Map:
+-----
+* Map holds the data in the form of key - value pairs.
+* it remembers the original insertion order.
+* keys must be unique.
+
+important methods present in Map:
+----------------------------------
+1. set()
+    -> is used to add key value pairs to map.
+2. get()
+    -> gets the values for a key in the map.
+3. clear()
+    -> remove all the elements from the map.
+4. delete() 
+    -> remove map element specified by a key.
+5. has()
+    -> returns true if the key exists.
+6. keys()
+    -> returns an iterator object with the keys in a map.
+7. values()
+    -> returns an iterator object of the values in a map.

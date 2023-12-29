@@ -7,7 +7,7 @@ Salt:
 
 Here's a basic breakdown of how bcrypt works with the salt:
 -----------------------------------------------------------
-* Salt Generation: A random salt is generated. The length of the salt is typically configurable.
+* Salt Generation: A random salt is generated.
 
 * Combining Salt and Password: The salt is concatenated with the password.
 

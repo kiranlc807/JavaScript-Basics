@@ -20,5 +20,5 @@ log-levels:
 2.warn:- indicate potential issues (or) situation that might lead to problem but don't nessearily cause an error.
          Developers should pay attention to warning messeage.
 
-3.info:- genaral information messages that indicate y=the normal flow of application. these messages are
+3.info:- genaral information messages that indicate the normal flow of application. these messages are
            useful for traking the execution of the code.

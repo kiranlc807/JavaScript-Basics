@@ -18,3 +18,15 @@ $sort: Sorts the documents based on specified fields.
 $limit: Limits the number of documents passed to the next stage in the pipeline.
 
 $skip: Skips a specified number of documents.
+
+operations in aggregation :
+----------------------------
+$sum: Adds up the define valuve of every document of a collections.
+
+$avg: Compute the average valuve of every document of a collections.
+
+$min: return the minimum of all valuve from which a collections.
+
+$max: return the maximum of all valuve from within a collections.
+
+$push: Add the valuve to an array in assosiated document.

@@ -1,0 +1,27 @@
+Salt:
+------
+* refers to a random value that generated and combined with a password before hashing.
+* the use of salt makes it more challenging and time consumming for attackers to crack password.
+* salt in bcrypt is randomly generated value that add on external layer of security to password hashing by making it 
+  more rentant to various types of attacks.
+
+Here's a basic breakdown of how bcrypt works with the salt:
+-----------------------------------------------------------
+* Salt Generation: A random salt is generated.
+
+* Combining Salt and Password: The salt is concatenated with the password.
+
+* Key Derivation Function (KDF): The combined salt and password go through the key derivation function, 
+  which involves multiple iterations. The number of iterations is determined by the cost factor,
+  which is a parameter in bcrypt that controls the computational cost of hashing.
+
+* Hash Storage: The final hashed password, along with the salt and other necessary information, is stored in 
+  the database.
+
+SaltRound:
+----------
+* salt rounds value refers to the number of iterations or work factor applied during the key derivation process.
+* The salt rounds value determines how many times the password hashing function will be applied.
+* The higher the salt rounds value, the more secure the password hashing becomes.
+  [increase security and computational resources]
+* increasing the value significantly will also increase the time it takes to hash passwords.

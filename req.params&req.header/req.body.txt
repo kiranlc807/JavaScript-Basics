@@ -1,0 +1,6 @@
+req.body:
+---------
+* it is used to acess the data submitted in the body of the post or put request.
+
+* When a client sends data to the server in the body of an HTTP request (e.g., through an HTML form or an API request), 
+  the server can parse and access that data using req.body 

@@ -1,0 +1,9 @@
+req.params:
+-----------
+* req.params is object containing properties mapped to named route parameter.
+
+syntax:
+        req.params.[routes argument]
+
+        */123
+        req.params._id

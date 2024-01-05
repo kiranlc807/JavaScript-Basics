@@ -1,0 +1,58 @@
+Array:-
+-------
+* Array is a type of global object that is used store data.
+
+Creation of Array:-
+-------------------
+    1. let value = []
+
+    2. let value = new Array();
+
+* .length is used to get the size of the Array.
+    ex:- 'value.length'
+
+* to assign the value to Array we need use '.push()' or '[index]'. 
+    ex :- value.push(10)
+          value[0]=10
+
+* to fetch the value from array using index like 'value[0]'.
+
+* when the array doesn't have the value at some index on the time it gives 'undefined'.
+
+Importent Methods of Array:-
+-------------------------------
+1. push()
+    -> add the values to the Array at last.
+
+2. pop()
+    -> it removes the last value from the array.
+
+3. shift()
+    -> it removes the value from the begining.
+
+4. unshift() 
+    -> it add the new value to the begining.
+
+5. splice();
+    a.splice(index)
+        -> it removes all the values from the sepcified index.
+
+    b.splice(index,deleteCount)
+        -> it remove the 'deleteCount' of value remove from the specified index.
+
+    c.splice(index,deleteCount,item1....)
+        -> it remove the 'deleteCount' of value remove from the specified index and add the new values as item1....
+6. delete()
+    -> Deleting elements leaves undefined holes in an array.
+
+7. concat()
+    -> The concat() method creates a new array by merging (concatenating) existing arrays.
+
+8. slice()
+    -> it gives a new Arrys by break the existing arrays from stating point index to ending index.
+
+9. toString()
+    -> it convert the an array to a comma separted String when a primitive value is expected.
+
+10. join()
+    -> method returns an array as a string.

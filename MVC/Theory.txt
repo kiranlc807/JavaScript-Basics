@@ -1,0 +1,19 @@
+MVC [Model-View-Control]
+------------------------
+* which is a software architectural pattern commonly used in the design and development of interactive 
+user interfaces for applications.[data and Control logics];
+
+Model:
+-----
+* Handel the data logic.
+* interacts with database.
+
+View:
+-----
+* Handel the data presentation.
+* Dynamically renderd.
+
+Control:
+-------
+* Handel the request flow.
+* Never Handel data logic.

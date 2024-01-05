@@ -1,0 +1,29 @@
+
+JWT:
+-----
+* A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web
+  (between two parties). 
+
+  ex:
+        xxxxx.yyyyy.zzzzz
+
+        x->header
+        y->payload
+        z->signature
+
+JSON Web Tokens (JWT) consist of three main parts: 
+-------------------------------------------------
+1.Header:
+---------
+* The header typically consists of two parts: the type of the token, which is JWT, and the signing algorithm 
+ being used, such as HMAC SHA256 or RSA.
+
+2.Payload:
+----------
+* The second part of the JWT is the payload, which contains the claims. Claims are statements about an 
+ entity (typically, the user) and additional data.
+
+3.Signature:
+------------
+* The signature is used to verify the integrity of the token. It is created by hashing the header and payload 
+  using the secret key.

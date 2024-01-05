@@ -1,0 +1,10 @@
+filter():-
+---------
+* The filter() method receives function as a parameter.
+* It runs the function for each element in the array.
+* It will return the new array which satisfies the condition applied. It will not change the original array.
+
+syntax:
+        filter((element) => { /* … */ } )
+        filter((element, index) => { /* … */ } )
+        filter((element, index, array) => { /* … */ } )

@@ -1,0 +1,38 @@
+.evn [environment variables]
+-----------------------------
+* .env file is a configuration file used to store environment variables for your application.
+
+* Environment variables are key-value pairs that contain various settings and configuration values
+  needed by your Node.js application.
+
+* These variables can include database connection strings, API keys, port numbers, and other sensitive information.
+
+Ex:
+    DB_HOST=localhost
+    DB_PORT=5432
+    API_KEY=your_api_key
+
+-> To use the values stored in the .env file within your Node.js application, you would typically use
+   a package like dotenv.
+-> This package reads the .env file and loads the variables into the process.env object, making them accessible in your code
+ 
+how to use dotenv in a Node.js application:
+--------------------------------------------------
+    1.Install dotenv using npm or yarn:
+        >npm install dotenv
+
+
+    2.Require and configure dotenv at the top of your application file:
+
+        require('dotenv').config();
+
+
+    3.Now, you can access your environment variables using process.env:
+
+        const dbHost = process.env.DB_HOST;
+        const dbPort = process.env.DB_PORT;
+        const apiKey = process.env.API_KEY;
+
+        console.log(`Database Host: ${dbHost}`);
+        console.log(`Database Port: ${dbPort}`);
+        console.log(`API Key: ${apiKey}`);

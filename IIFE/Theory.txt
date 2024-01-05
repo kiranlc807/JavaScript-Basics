@@ -1,0 +1,17 @@
+IIFE-> [Immediately Invoked Function Expression]
+-------------------------------------------------
+* It is a design pattern where a function is defined and executed immediately after its creation.
+
+* This pattern is often used to create a private scope for variables, preventing them from polluting 
+   the global scope.
+
+   EX:
+        (function() {
+            // Your code here
+        })();
+
+* This creates an anonymous function and immediately invokes it.
+
+* Anything declared inside this function is within its own scope and doesn't affect the outside scope.
+
+* IIFE is commonly used to avoid naming conflicts, encapsulate code, and manage variable scope efficiently.

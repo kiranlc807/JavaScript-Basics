@@ -1,0 +1,21 @@
+PROTOCOLS:
+----------
+* protocol is a set of rules that define how data is transmitted between computers
+
+* It is the first component of a URL and is used to identify the type of data being transferred.
+
+example:
+---------
+* the protocol for HTTP is "http" 
+* the protocol for HTTPS is "https"
+
+There are many different protocols used in JavaScript:
+-------------------------------------------------------
+* HTTP: The Hypertext Transfer Protocol is used to transfer data between web servers and browsers.
+
+* HTTPS: The Hypertext Transfer Protocol Secure is a secure version of HTTP that uses encryption to 
+  protect data in transit.
+
+* FTP: The File Transfer Protocol is used to transfer files between computers.
+
+* SMTP: The Simple Mail Transfer Protocol is used to send emails.

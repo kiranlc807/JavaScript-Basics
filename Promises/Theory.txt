@@ -1,0 +1,26 @@
+What is a promise in JavaScript?
+----------------------------------
+A Promise is an object representing the eventual completion or failure of an asynchronous operation.
+
+
+syntax:-
+-------------
+            let promise = new Promise(function(resolve, reject){
+                            //do something
+                            });
+
+Parameters
+------------
+* The promise constructor takes only one argument which is a callback function
+
+* The callback function takes two arguments, resolve and reject
+
+* Perform operations inside the callback function and if everything went well then call resolve.
+   If desired operations do not go well then call reject.
+
+
+Promise Consumers: 
+    * Promises can be consumed by registering functions using .then and .catch methods.
+
+    promise. then(success). catch(error) is that in case if success callback returns a rejected promise,
+    then only the second form is going to catch that rejection.

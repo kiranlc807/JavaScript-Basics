@@ -1,0 +1,11 @@
+Map( ):
+-------
+* it creats a new array  by applying a function to each elements in the original array.
+* map() does not execute the function for empty elements.
+* map() does not change the original array.
+
+syntax:
+         map((element) => { /* Coding Logic*/ })
+         map((element, index) => { /* Coding Logic */ })
+         map((element, index, mapArray) => { /* Coding Logic */ })
+

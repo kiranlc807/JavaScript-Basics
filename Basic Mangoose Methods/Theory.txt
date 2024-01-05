@@ -1,0 +1,34 @@
+Mangoose:
+----------
+* Mongoose is an ODM (Object-Document Mapper) library for MongoDB.
+* it provides a straightforward way to perform CRUD (Create, Read, Update, Delete) operations.
+
+Mongoose methods for CRUD operations:
+-------------------------------------
+
+1.Create (Insert):
+------------------
+* The model.create() function in Mongoose is used to create and save documents to a MongoDB collection.
+
+->  Model.create()
+
+2.Read (Query):
+---------------
+* The model.find() method is used to retrieve documents from a MongoDB collection based on the specified criteria.
+->  Model.find()
+
+3.Update:
+---------
+-> Model.updateOne()
+---------------------
+* The updateOne method is typically used to update a single document in a MongoDB collection based on certain criteria.
+-> Model.updateMany()
+---------------------
+* The updateMany function is used to update multiple documents that match a given query in a MongoDB collection.
+
+4.Delete:
+---------
+-> Model.deleteOne()
+* The updateMany function is used to update one documents that match a given query in a MongoDB collection.
+-> Model.deleteMany()
+* The updateMany function is used to update multiple documents that match a given query in a MongoDB collection.

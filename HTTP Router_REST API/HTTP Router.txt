@@ -1,0 +1,9 @@
+HTTP Router:
+-----------
+* it is a module or component that helps in handling HTTP request. 
+
+* Routing refers to determining how an application responds to a client request to a particular endpoint, 
+  which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+
+* In Node.js, an HTTP router is a module or mechanism that helps in handling and directing HTTP requests to 
+  the appropriate handlers or functions based on the requested URL and HTTP method.

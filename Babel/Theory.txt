@@ -1,0 +1,9 @@
+Babel:
+------
+* Babel is a popular open-source compiler that allows developers to write code using the latest ECMAScript 
+ (ES) syntax and features and then transforms or transpiles that code into an older version of JavaScript 
+ that can run in environments that may not support the latest features.
+
+* Babel is a transcompiler it can convert new features js file into older syntax js file.
+
+* some browser are not support for new feature.
